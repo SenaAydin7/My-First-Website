@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebTasarim</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--Scroll-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Tablet CSS-->
+    <link rel="stylesheet" media="(max-width:768px)" href="tablet.css">
+    <!--Mobile CSS-->
+    <link rel="stylesheet" media="(max-width:500px)" href="mobile.css">
+
+</head>
+<body>
+    <!--HEADER BEGIN-->
+    <header id="header">
+        <div class="header">
+            <div class="container">
+                <div class="header-navbar">
+                    <div class="header-logo">
+                        <h2>AUTO</h2>
+                    </div>
+                    <div class="header-menu">
+                        <ul>
+                            <li><a href="#header">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#portfolio">Products</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-text">
+                    <h1>BMW</h1>
+                    <h3>Sheer Driving Pleasure</h3>
+                    <a href="#" class="btn-bmw">Explore</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--HEADER END-->
+
+    <!--ABOUT BEGIN-->
+    <section id="about">
+        <div class="about">
+            <div class="container">
+                <div class="about-title">
+                    
+                </div>
+                <div class="about-content">
+                    <div class="about-img from-left">
+                        <img src="logo.jpg" alt="">
+                    </div>
+                    <div class="about-text from-right">
+                        <h4>DESIGN</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati beatae ex omnis hic enim quisquam.<br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni autem, nostrum alias ratione aliquam mollitia?</p>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--ABOUT END-->
+
+    <section id="portfolio">
+        <div class="portfolio">
+            <div class="portfolio-item picture1">
+                <img src="engeen.jpg" alt="">
+            </div>
+            <div class="portfolio-item picture2">
+                <img src="front.jpg" alt="">
+            </div>
+            <div class="portfolio-item picture3">
+                <img src="black.jpg" alt="">
+            </div>
+            <div class="portfolio-item picture4">
+                <img src="back.jpg" alt="">
+            </div>
+            <div class="portfolio-item picture5">
+                <img src="white.jpg" alt="">
+            </div>
+            <div class="portfolio-item picture6">
+                <img src="wheel.jpg" alt="">
+            </div>
+            <div class="portfolio-item picture7">
+                <img src="green.jpg" alt="">
+            </div>
+            <div class="portfolio-item picture8">
+                <img src="frontwhite.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--contact section-->
+    <section id="contact">
+        <div class="contact">
+            <div class="container">
+                <div class="page-title">
+                    <h2>CONTACT</h2>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-item from-left">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>phone no</p>
+                    </div>
+                    <div class="contact-item from-left">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>adress</p>                        
+                    </div>
+                    <div class="contact-item from-left">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>email@com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer begin-->
+    <footer id="footer">
+        <div class="footer">
+            <div class="footer-content">
+                <p>Follow Us</p>
+            </div>
+            <nav class="footer-item">
+                <ul>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-instagram" style="color: rgb(97, 181, 255)"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter" style="color: rgb(39, 109, 222)"></i></a>
+                        <a href="#"><i class="fa-solid fa-laptop" style="color: rgb(231, 41, 41)"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <!--footer end-->
+
+    <script>
+        window.sr=ScrollReveal();
+
+        sr.reveal('.from-left',{
+            origin: 'left',
+            duration: 1000,
+            distance: '25rem',
+            delay: 300
+        })
+
+        sr.reveal('.from-right',{
+            origin: 'right',
+            duration: 1000,
+            distance: '25rem',
+            delay: 700
+        })
+
+    </script>
+
+    <script>
+        ScrollReveal().reveal('.picture1',{ delay: 250 });
+        ScrollReveal().reveal('.picture2',{ delay: 500 });
+        ScrollReveal().reveal('.picture3',{ delay: 750 });
+        ScrollReveal().reveal('.picture4',{ delay: 1000 });
+        ScrollReveal().reveal('.picture5',{ delay: 1250 });
+        ScrollReveal().reveal('.picture6',{ delay: 1500 });
+        ScrollReveal().reveal('.picture7',{ delay: 1750 });
+        ScrollReveal().reveal('.picture8',{ delay: 2000 });
+    </script>
+
+</body>
+</html>

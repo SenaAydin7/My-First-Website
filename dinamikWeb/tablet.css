@@ -1,0 +1,17 @@
+body{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.portfolio .portfolio-item{
+    flex-basis: 50%;
+}
+
+h4{
+    letter-spacing: 2rem;
+}
+
+h4{
+    margin-top: 20px;
+    letter-spacing: 2rem;
+}

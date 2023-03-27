@@ -1,0 +1,48 @@
+body{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header-navbar{
+    padding-top: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-menu{
+    padding-top: 1.5rem;
+    padding-right: 2rem;
+}
+
+.about .about-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about-img{
+    width: 80%;
+}
+
+h4{
+    margin-top: 20px;
+    letter-spacing: 2rem;
+}
+
+.page-title h2{
+    letter-spacing: 2.5rem;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.portfolio .portfolio-item{
+    flex-basis: 50%;
+}
+
+.footer-item li{
+    display: flex;
+}
+
+.footer-item i{
+    padding: 10px;
+}
