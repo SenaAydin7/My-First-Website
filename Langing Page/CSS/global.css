@@ -1,0 +1,90 @@
+/* Text */
+
+.text-center{
+    text-align: center;
+}
+
+.heading-small{
+    font-size: 1.25rem;
+}
+
+.heading-medium{
+    font-size: 1.5rem;
+}
+
+.heading-big{
+    font-size: 1.75rem;
+}
+
+/* Colors */
+
+.bg-dark{
+    background: rgb(34, 34, 39);
+}
+
+.bg-light{
+    background: lightblue;
+}
+
+/* Bottom */
+
+.btn{
+    margin-top: 1rem;
+    padding: 0.8rem 3rem;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    border: 0.5px solid rgb(34, 34, 39);
+}
+
+.btn-primary{
+    background: rgb(34, 34, 39);
+}
+
+.btn-primary:hover{
+    background: rgb(236, 185, 17);
+    color: rgb(34, 34, 39);
+    border: 0.5px solid rgb(34, 34, 39);
+}
+
+.btn-dark{
+    background: #333;
+    
+}
+.btn-yellow{
+    background: rgb(236, 185, 17);    
+}
+
+.btn-dark:hover{
+    color: #333;
+    background: white;
+    border: 0.5px solid #333;
+}
+
+.btn-block{
+    width: 100%;
+    text-align: center;
+}
+
+/*Form*/
+
+.form-group{
+    padding-bottom: 1.5rem ;
+}
+.form-group label{
+    display: block;
+}
+
+.form-control{
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+    align-self: center;
+}
+
+/* Container */
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}

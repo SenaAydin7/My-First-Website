@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+html{
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul  li a{
+    padding: 1rem;
+}
+
+#navbar ul  li a:hover{
+    background: rgb(56, 56, 66);
+    border-radius: 4px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+/* Home Section*/
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid black;
+}
+
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 2%;
+}
+
+#home .name h2{
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+    text-align: center;
+}
+
+#home a .title{
+    background: rgb(200, 255, 0);
+}
+
+/* Motivation Section*/
+
+#motivation{
+    color: white;
+    padding: 1rem;
+    padding-bottom: 1.5rem;    
+    text-align: center;
+}
+
+#motivation div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+#motivation div article p{
+    font-style: italic;
+   
+}
+
+#motivation .items .item{
+    width: 33%;
+    padding: 0.5rem;
+}
+
+#motivation .items .item:hover{
+    color: orangered;
+}
+
+/* Hacks */
+
+#hacks div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 0.5rem;
+
+}
+
+#hacks{
+    color: rgb(34, 34, 39);
+    padding: 1rem;
+}
+
+.container .hacks{
+    display:flex;
+    flex-direction: column;
+    padding: 1rem;
+    
+}
+
+.hacks .hack{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.hacks .hack .hack-image  img{
+    max-width: 300px;
+    display: flex;
+    border-radius: 5px;
+    object-fit: fill;
+}
+
+#hacks .hacks .hack .description{
+    letter-spacing: 1.2px;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+    align-items: center;
+}
+
+/*Footer*/
+
+#contact {
+    color: white;
+    padding: 1rem;
+    padding-bottom: 2rem;    
+    
+}
+
+#contact h4{
+    padding-bottom: 1.5rem;
+    font-size: large;
+    text-align: center;
+}
+
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+
+
+
+
+
